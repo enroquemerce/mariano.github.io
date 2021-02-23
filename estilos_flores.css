@@ -1,0 +1,79 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+
+/*FIN DEL RESET*/
+body{
+    font-size:62.5%;
+    }
+h1{
+    font:normal 2.4em verdana, geneva, sans-serif;
+    background:-webkit-linear-gradient(top,blue,black);
+    width:35%;
+    border-radius:10px;
+    margin:15px auto;
+    text-align:center;
+    padding:15px;
+    color:white;
+    box-shadow:red 5px 5px 10px;
+    text-shadow:white 5px 5px 10px;
+    }
+h2{
+    font:bold 1.7em verdana, geneva, sans-serif;
+    margin:0;
+    padding:5px 0 5px 0px;
+    color:black;
+
+    }
+section{
+    width:91%;
+    border-top:1px dashed green;
+    margin:15px auto;
+
+}
+figure{
+    float:left;
+    }
+
+figure img{
+    padding:4px;
+    background:green;
+    border-radius:20px;
+    -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+    box-shadow:green 5px 5px ;
+    }
+
+figure img:hover{
+    -webkit-transform:scale(1.2);
+    }
+
+
+
+figcaption{
+    font-family:Arial, helvetica, sans-serif;
+    font-size:1.3em;
+    text-align:center;
+    margin-top:5px;
+    }
+
+
+footer{
+    clear:both;
+    padding-top:50px;
+    font:1.6em georgia, "times new roman";
+    color:black;
+    margin:10px 8px;    
+    }
+
+
+
